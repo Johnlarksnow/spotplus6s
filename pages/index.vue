@@ -1,9 +1,6 @@
 <script setup lang="ts">
-import { onMounted, defineComponent} from 'vue';
-import VueMeta from 'vue-meta'
-import Vue from 'vue'
+import { onMounted} from 'vue';
 
-Vue.use(VueMeta)
 
 
 onMounted(() => {
