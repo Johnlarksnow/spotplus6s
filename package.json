@@ -10,29 +10,29 @@
     "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore ."
   },
   "devDependencies": {
-    "@iconify-json/tabler": "^1.1.80",
+    "@iconify-json/tabler": "^1.1.85",
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
-    "@types/node": "^18",
+    "@types/node": "^18.17.1",
     "@vueuse/core": "^10.2.1",
     "@vueuse/motion": "^2.0.0",
     "@vueuse/nuxt": "^10.2.1",
     "jwt-decode": "^3.1.2",
-    "nuxt": "^3.6.1",
+    "nuxt": "^3.6.5",
     "nuxt-font-loader": "^2.3.1",
     "nuxt-icon": "^0.4.2"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^0.39.7",
+    "@antfu/eslint-config": "^0.39.8",
     "@pinia/nuxt": "^0.4.11",
-    "eslint": "^8.44.0",
-    "pinia": "^2.1.4",
+    "eslint": "^8.46.0",
+    "pinia": "^2.1.6",
     "swiper": "^10.0.4",
     "vue-meta": "^2.4.0",
     "vue-router": "^4.2.4",
     "vue-sidebar-menu-akahon": "^1.0.2",
-    "vue-tippy": "v6"
+    "vue-tippy": "^6.2.0"
   }
 }
