@@ -1,5 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true, // Enable Server Side rendering
+  experimental: {
+    payloadExtraction: false
+  },
+  generate: {
+    routes: ['/login', '/register', '/renewal', '/upgrade', '/']
+  },
   modules: [
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',

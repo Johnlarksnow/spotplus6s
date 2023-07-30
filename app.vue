@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { watch } from 'vue'
 const nuxtApp = useNuxtApp()
 const loading = ref(false)
 
@@ -11,11 +12,19 @@ addRouteMiddleware('global-loader', () => {
 nuxtApp.hook('page:finish', () => {
   loading.value = false
 })
+
+// watching the loading ref, and using the value to control nuxtApp's loading status
+watch(loading, (newVal) => {
+  nuxtApp.$nuxt.$loading.start()
+  if (!newVal) {
+    nuxtApp.$nuxt.$loading.finish()
+  }
+})
 </script>
 
 <template>
   <main class="bg-green-100 dark:text-white text-gray-900 font-inter min-h-screen dark:bg-[#050505]">
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator v-if="loading" />
 
     <NuxtLayout class="h-full">
       <NuxtPage />
