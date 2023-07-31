@@ -30,7 +30,8 @@
     "eslint": "^8.46.0",
     "pinia": "^2.1.6",
     "swiper": "^10.0.4",
-    "vue-meta": "^2.4.0",
+    "vue-headful": "^2.1.0",
+    "vue-meta": "^3.0.0-alpha.2",
     "vue-router": "^4.2.4",
     "vue-sidebar-menu-akahon": "^1.0.2",
     "vue-tippy": "^6.2.0"
