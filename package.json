@@ -28,9 +28,13 @@
     "@antfu/eslint-config": "^0.39.8",
     "@pinia/nuxt": "^0.4.11",
     "eslint": "^8.46.0",
+<<<<<<< HEAD
     "git": "^0.1.5",
     "pinia": "^2.1.6",
     "pnpm": "^8.6.11",
+=======
+    "pinia": "^2.1.6",
+>>>>>>> a3b5eee2a0e29c20812d35f7a64ce6de3e7f780e
     "swiper": "^10.0.4",
     "vue-meta": "^2.4.0",
     "vue-router": "^4.2.4",
