@@ -14,9 +14,21 @@ dependencies:
   eslint:
     specifier: ^8.46.0
     version: 8.46.0
+<<<<<<< HEAD
+  git:
+    specifier: ^0.1.5
+    version: 0.1.5
   pinia:
     specifier: ^2.1.6
     version: 2.1.6(typescript@5.1.6)(vue@3.3.4)
+  pnpm:
+    specifier: ^8.6.11
+    version: 8.6.11
+=======
+  pinia:
+    specifier: ^2.1.6
+    version: 2.1.6(typescript@5.1.6)(vue@3.3.4)
+>>>>>>> a3b5eee2a0e29c20812d35f7a64ce6de3e7f780e
   swiper:
     specifier: ^10.0.4
     version: 10.0.4
@@ -3718,7 +3730,11 @@ packages:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.12.1
+<<<<<<< HEAD
+      resolve: 1.22.2
+=======
       resolve: 1.22.3
+>>>>>>> a3b5eee2a0e29c20812d35f7a64ce6de3e7f780e
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -4453,6 +4469,16 @@ packages:
       git-up: 7.0.0
     dev: true
 
+<<<<<<< HEAD
+  /git@0.1.5:
+    resolution: {integrity: sha512-N+bfOrXyKMU/fQtCj6D/U9MQOEN0DAA8TLHSLdUQRSWBOkeRvsjJHdrdkvcq05xO7GSDKWc3nDEGoTZ4DfCCSg==}
+    engines: {node: '>=0.4.0'}
+    dependencies:
+      mime: 1.2.9
+    dev: false
+
+=======
+>>>>>>> a3b5eee2a0e29c20812d35f7a64ce6de3e7f780e
   /glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
@@ -5557,6 +5583,13 @@ packages:
       mime-db: 1.52.0
     dev: true
 
+<<<<<<< HEAD
+  /mime@1.2.9:
+    resolution: {integrity: sha512-WiLgbHTIq5AYUvU/Luli4mZ1bUcHpGNHyCsbl+KPMg4zt+XUDpQehWjuBjdLaEvDTinvKj/FgfQt3fPoT7j08g==}
+    dev: false
+
+=======
+>>>>>>> a3b5eee2a0e29c20812d35f7a64ce6de3e7f780e
   /mime@1.6.0:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
@@ -6523,6 +6556,15 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
+<<<<<<< HEAD
+  /pnpm@8.6.11:
+    resolution: {integrity: sha512-jqknppuj45tDzJsLcLqkAxytBHZXIx9JTYkGNq0/7pSRggpio9wRxTDj4NA2ilOHPlJ5BVjB5Ij5dx65woMi5A==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
+
+=======
+>>>>>>> a3b5eee2a0e29c20812d35f7a64ce6de3e7f780e
   /popmotion@11.0.5:
     resolution: {integrity: sha512-la8gPM1WYeFznb/JqF4GiTkRRPZsfaj2+kCxqQgr2MJylMmIKUwBfWW8Wa5fml/8gmtlD5yI01MP1QCZPWmppA==}
     dependencies:
