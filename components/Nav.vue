@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Tippy } from 'vue-tippy'
 
 const appConfig = useAppConfig()
 const { y } = useWindowScroll()
@@ -116,7 +117,7 @@ if (authStore.checkJwt()) {
                 <div class="flex flex-col items-end p-2 gap-2">
                   <NuxtLink
                     v-for="link in dashboardLinks" :key="link.name" :to="link.path"
-                    class="text-lg font-bold text-left w-full hover:text-green-500 transition-all " style="color: white; text-decoration: none;"
+                    class="text-lg font-bold text-left w-full hover:text-green-500 transition-all " style="color: white;"
                   >
                     
                     {{ link.name }}
