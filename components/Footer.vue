@@ -41,7 +41,7 @@ const year = new Date().getFullYear()
 					<div class="hidden justify-between w-3/12 md:flex">
 						
 				</div>
-				<div class="flex justify-between"><a href="https://discord.gg/spotifyplug"><img
+				<div class="flex justify-between"><a href="https://discord.gg/RKefwVdnnQ"><img
 							src="https://www.spotgrade.io/images/footer/discord.svg"></a>
 				</div>
 			</ul>

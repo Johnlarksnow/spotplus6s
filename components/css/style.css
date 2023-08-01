@@ -100,7 +100,7 @@ h6 {
 
 .btn-primary {
     color: #fff;
-    background-color: #44ce6f;
+    background-color: #14532d;
     -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, .25);
     box-shadow: 0 13px 27px 0 rgba(68, 206, 111, .25)
 }
@@ -180,7 +180,7 @@ h6 {
     width: 0;
     -webkit-transition: .5s;
     transition: .5s;
-    background: #5bf8d1;
+    
     z-index: -1
 }
 

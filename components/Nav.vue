@@ -91,13 +91,13 @@ if (authStore.checkJwt()) {
       </div>
       <div v-if="!authStore.checkJwt()" class="flex justify-end gap-2 items-center">
         <NuxtLink
-          class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" to="/login" style="background-color: #46D17B; color: white;"
+          class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" to="/login" style="background-color: #14532d; color: white; text-decoration: none;"
         >
           Login
           <Icon name="tabler:login" class="w-6 h-6" />
         </NuxtLink>
         <NuxtLink
-          class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" to="/register" style="background-color: #46D17B; color: white;"
+          class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" to="/register"  style="background-color: #14532d; color: white; text-decoration: none;"
         >
           Register
           <Icon name="tabler:plus" class="w-6 h-6" />
@@ -121,7 +121,7 @@ if (authStore.checkJwt()) {
                     {{ link.name }}
                   </NuxtLink>
                   <button
-                    class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" style="background-color: #46D17B; color: white;"
+                    class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" style="background-color: #14532d; color: white;"
                     @click="authStore.signOut()"
                   >
                     Logout

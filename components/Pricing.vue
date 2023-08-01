@@ -104,11 +104,11 @@ const isModalOpen = ref(false)
             </div>
             <div class="pricing-features">
               <ul>
-                <li class="active">12x Upgrade Key</li>
+                <li class="active">2x Upgrade Key</li>
                 <li class="active">Automated Upgrade</li>
                 <li class="active">Lifetime Warranty</li>
                 <li class="active">Adless Listening</li>
-                <li class="active">N/A</li>
+                <li class="active">Offline Listening</li>
               </ul>
             </div>
             <button v-if="!authStore.checkJwt()" @click="isModalOpen = true" name="product" value="subscription"

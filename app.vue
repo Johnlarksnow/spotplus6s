@@ -16,7 +16,7 @@ const loading = ref(false)
 
 // Define your head meta data here
 const head = useHead({
-  title: 'Spotigrade | Premium Spotify Accounts',
+  title: 'SpotiGrade | Automated Spotify Upgrade Service',
   meta: [
     {
       name: 'Spotgrade',
