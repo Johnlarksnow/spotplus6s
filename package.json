@@ -27,6 +27,7 @@
   "dependencies": {
     "@antfu/eslint-config": "^0.39.8",
     "@pinia/nuxt": "^0.4.11",
+    "@vueuse/head": "^1.1.26",
     "eslint": "^8.46.0",
     "git": "^0.1.5",
     "pinia": "^2.1.6",

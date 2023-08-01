@@ -12,6 +12,17 @@ const alert = reactive({
 })
 const showAlert = ref(false)
 
+const head = ref({
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: 'https://i.imgur.com/fRdn9yq.png'
+    }
+  ]
+})
+
+
 async function login() {
   try {
     const { data } = await useFetch(

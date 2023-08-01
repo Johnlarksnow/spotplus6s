@@ -9,8 +9,29 @@
 
 <script setup lang="ts">
 import { defineComponent, watch, ref } from 'vue'
+import { useHead } from '@vueuse/head'
+
 const nuxtApp = useNuxtApp()
 const loading = ref(false)
+
+// Define your head meta data here
+const head = useHead({
+  title: 'Spotigrade | Premium Spotify Accounts',
+  meta: [
+    {
+      name: 'Spotgrade',
+      content: 'Spotgrade provides high-quality Spotify upgrades directly to your personal account, adding Lifetime Warranty with Auto-Renewal. Get to enjoy our service with the easy-to-use user interface and our cheap pricing.',
+    },
+    // ...more meta tags
+  ],
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: 'https://i.imgur.com/uG1AGSR.png'
+    },
+  ],
+})
 
 addRouteMiddleware('global-loader', () => {
   loading.value = true
@@ -22,23 +43,6 @@ nuxtApp.hook('page:finish', () => {
   loading.value = false
 })
 </script>
-
-<script lang="ts">
-export default {
-  head() {
-    return {
-      title: 'Spotigrade',
-      meta: [
-        // Your meta tags...
-      ]
-    };
-  },
-  // Your other Vue options...
-};
-</script>
-
-
-
 
 <style>
 html {
