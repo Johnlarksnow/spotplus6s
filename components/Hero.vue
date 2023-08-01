@@ -36,7 +36,7 @@ export default {
 
 
 
-              </p> <a href="#pricing" class="btn btn-primary">Purchase</a>
+              </p> <a href="#pricing" style="background-color: #14532d; border-color: #14532d; transform: scale(1.1); transition: transform .5s;" class="btn btn-primary">Purchase</a>
 
             </div>
             <div style="justify-content: center; display: flex;" class="col-lg-6 offset-lg-1">
