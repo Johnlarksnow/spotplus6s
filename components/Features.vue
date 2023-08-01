@@ -61,12 +61,7 @@ onMounted(() => {
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-box bg-f78acb">
-						<div class="icon"> <svg style="margin-left: 1rem; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-								viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-								stroke-linecap="round" stroke-linejoin="round" class="feather feather-code">
-								<polyline points="16 18 22 12 16 6"></polyline>
-								<polyline points="8 6 2 12 8 18"></polyline>
-							</svg> </div>
+						<div class="icon"> <img style="height: 35px; margin-left: 0.6rem; margin-top: 0.6rem;" src="https://i.imgur.com/0kPvFfl.png"> </div>
 						<h3 class="thingthing">Cheap</h3>
 						<p>We have one of the best pricing on the whole market beating our competitors!</p>
 					</div>

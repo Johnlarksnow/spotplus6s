@@ -91,14 +91,12 @@ if (authStore.checkJwt()) {
       </div>
       <div v-if="!authStore.checkJwt()" class="flex justify-end gap-2 items-center">
         <NuxtLink
-          v-if="$route.path !== '/login'"
           class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" to="/login" style="background-color: #46D17B; color: white;"
         >
           Login
           <Icon name="tabler:login" class="w-6 h-6" />
         </NuxtLink>
         <NuxtLink
-          v-if="$route.path !== '/register'"
           class="md:text-lg bg-green-900 px-2 md:px-4 py-2 flex gap-2 items-center rounded-lg" to="/register" style="background-color: #46D17B; color: white;"
         >
           Register

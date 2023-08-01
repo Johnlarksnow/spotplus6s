@@ -6,6 +6,21 @@ const items = [
   'with',
   'ease.',
 ]
+
+</script>
+<script lang="ts">
+export default {
+  head() {
+    return {
+      title: 'This is my component',
+      meta: [
+        { hid: 'description', name: 'description', content: 'This is my component description' },
+        { hid: 'og:title', property: 'og:title', content: 'This is my component' },
+        { hid: 'og:description', property: 'og:description', content: 'This is my component description' },
+      ],
+    };
+  },
+};
 </script>
 
 <template>
